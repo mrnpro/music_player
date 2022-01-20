@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: #0c0a0e;
+            }
+            #cover{
+                background-color: #ecd0c6;
+                margin: 50px auto ;
+                height: 70%;
+                width: 300px;
+                border-radius: 20px;
+                box-shadow: 0 0 10px #000;
+                
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 40px;
+                justify-content: center;
+                flex-direction: colummn;
+            }
+            #nextplay{
+                display: flex;
+                 
+                width: 100%;
+            }
+     
+            .poster{
+                border-radius: 20px;
+                margin-top: 20px;
+                width: 270px;
+                height: 250px;
+            }
+            
+            .img{
+                margin: 20px;
+                width: 20px;
+                height: 20px;
+
+            }
+            #titles{
+                text-align: center;
+
+            }
+            #titles div{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+         
+        <audio class="song" src="songs/betin1.mp3"></audio>
+        <audio class="song" src="songs/betin2.mp3"></audio>
+        <audio class="song" src="songs/betin3.mp3"></audio>
+       
+        <div id="cover">
+            <img class="poster" src="https://cache.desktopnexus.com/thumbseg/1597/1597682-bigthumbnail.jpg" alt="">
+
+            <div>
+                <div id="titles">
+                   <div>
+                    <p>Lily</p>
+                
+                   </div>
+                    <img class="img" src="assets/heart_default.png" alt="">
+                </div>
+    
+                <div id="nextplay">
+                    <img class="img"  src="assets/previous.png" alt="">
+                    <img class="img" src="assets/play-button.png" alt="">
+                    <img class="img" src="assets/play-and-pause-button.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+        <script src="javacript.js"></script>
+    </body>
+
+
+</html>
